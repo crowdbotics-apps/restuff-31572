@@ -952,7 +952,14 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@modules/social-login@file:./modules/social-login/":
+"@modules/login@file:./modules/login/":
+  version "1.0.0"
+  dependencies:
+    "@react-navigation/native" "^5.9.2"
+    "@react-navigation/stack" "^5.14.2"
+    react-native-keyboard-aware-scroll-view "^0.9.3"
+
+"@modules/social-login@file:./modules/social-login":
   version "1.0.0"
   dependencies:
     "@invertase/react-native-apple-authentication" "^2.1.0"
